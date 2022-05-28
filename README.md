@@ -1,4 +1,6 @@
 # zest-env
+[![CI](https://github.com/hahwul/zest-env/actions/workflows/docker.yml/badge.svg)](https://github.com/hahwul/zest-env/actions/workflows/docker.yml)
+[![CD](https://github.com/hahwul/zest-env/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/hahwul/zest-env/actions/workflows/docker-publish.yml)
 
 ## Docker image
 ### Dockerhub
