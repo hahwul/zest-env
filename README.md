@@ -12,3 +12,10 @@ docker pull hahwul/zest-env:v1.0.0
 ```
 docker pull ghcr.io/hahwul/zest-env:v1.0.0
 ```
+
+### Local build
+```
+git clone https://github.com/hahwul/zest-env
+cd zest-env
+docker build .
+```
