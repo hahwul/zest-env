@@ -6,7 +6,7 @@
 > Zest is an experimental specialized scripting language (also known as a domain-specific language) originally developed by the Mozilla security team and is intended to be used in web oriented security tools.
 *from https://www.zaproxy.org/docs/desktop/addons/zest/*
 
-It is included by default with ZAP. However, it can also be used as the CLI. Zest-env is a repository for configuring the CLI environment.
+It is included by default with ZAP. However, it can also be used as the CLI. this repository for easy setup the CLI environment.
 
 ## Usage
 ### Dockerhub
