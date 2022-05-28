@@ -16,9 +16,21 @@ docker pull hahwul/zest-env:latest
 docker pull hahwul/zest-env:v1.0.0
 ```
 
+```dockerfile
+FROM hahwul/zest-env:v1.0.0
+# Add your Job
+RUN /usr/bin/zest -script <FILENAME>
+```
+
 ### Github Container Registry (GHCR)
 ```
 docker pull ghcr.io/hahwul/zest-env:v1.0.0
+```
+
+```dockerfile
+FROM ghcr.io/hahwul/zest-env:v1.0.0
+# Add your Job
+RUN /usr/bin/zest -script <FILENAME>
 ```
 
 ### Local build
