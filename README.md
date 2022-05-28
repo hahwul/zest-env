@@ -2,7 +2,13 @@
 [![CI](https://github.com/hahwul/zest-env/actions/workflows/docker.yml/badge.svg)](https://github.com/hahwul/zest-env/actions/workflows/docker.yml)
 [![CD](https://github.com/hahwul/zest-env/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/hahwul/zest-env/actions/workflows/docker-publish.yml)
 
-## Docker image
+## What is Zest
+> Zest is an experimental specialized scripting language (also known as a domain-specific language) originally developed by the Mozilla security team and is intended to be used in web oriented security tools.
+*from https://www.zaproxy.org/docs/desktop/addons/zest/*
+
+It is included by default with ZAP. However, it can also be used as the CLI. Zest-env is a repository for configuring the CLI environment.
+
+## Usage
 ### Dockerhub
 ```
 docker pull hahwul/zest-env
