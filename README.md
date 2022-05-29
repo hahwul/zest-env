@@ -54,7 +54,7 @@ cd zest-env
 docker build .
 ```
 
-## References
+## Resources
 - https://www.zaproxy.org/docs/desktop/addons/zest/
 - https://github.com/zaproxy/zest/
 - https://www.hahwul.com/2022/05/19/zest-and-headless-authentication-script/
