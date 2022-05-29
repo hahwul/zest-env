@@ -9,6 +9,14 @@
 It is included by default with ZAP. However, it can also be used as the CLI. this repository for easy setup the CLI environment.
 
 ## Usage
+### Github action
+```yaml
+- name: Zest CLI
+  uses: hahwul/zest-env@v1.0.0-action
+  with:
+    script: <YOUR-ZEST-SCRIPT>
+```
+
 ### Dockerhub
 #### In CLI
 ```
