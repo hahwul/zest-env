@@ -57,5 +57,6 @@ docker build .
 ## Resources
 - https://www.zaproxy.org/docs/desktop/addons/zest/
 - https://github.com/zaproxy/zest/
+- https://twitter.com/hahwul/status/1530234639469932544
 - https://www.hahwul.com/2022/05/19/zest-and-headless-authentication-script/
 - https://www.hahwul.com/2022/05/28/zest-in-cli/
