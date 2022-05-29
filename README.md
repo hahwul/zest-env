@@ -53,3 +53,9 @@ git clone https://github.com/hahwul/zest-env
 cd zest-env
 docker build .
 ```
+
+## References
+- https://www.zaproxy.org/docs/desktop/addons/zest/
+- https://github.com/zaproxy/zest/
+- https://www.hahwul.com/2022/05/19/zest-and-headless-authentication-script/
+- https://www.hahwul.com/2022/05/28/zest-in-cli/
