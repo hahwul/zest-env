@@ -9,7 +9,7 @@
   * [Dockerhub](#dockerhub)
     + [In CLI](#in-cli)
     + [In Dockerfile](#in-dockerfile)
-  * [Github Container Registry (GHCR)](#github-container-registry--ghcr)
+  * [Github Container Registry (GHCR)](#github-container-registry-ghcr)
     + [In CLI](#in-cli-1)
     + [In Dockerfile](#in-dockerfile-1)
   * [Local build](#local-build)
