@@ -1,0 +1,17 @@
+name: 'Zest CLI'
+description: 'Zest CLI in Github action'
+branding:
+  icon: 'terminal'
+  color: 'red'
+inputs:
+  script: 
+    description: 'Zest script data'
+    required: true
+outputs:
+  output: 
+    description: 'CLI Output'
+runs:
+  using: 'docker'
+  image: 'github-action/Dockerfile'
+  args:
+    - ${{ inputs.script }}
