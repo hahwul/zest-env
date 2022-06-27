@@ -12,7 +12,7 @@ It is included by default with ZAP. However, it can also be used as the CLI. thi
 ### Github action
 ```yaml
 - name: Zest CLI
-  uses: hahwul/zest-env@v1.1.0-action
+  uses: hahwul/zest-env@v1.1.0
   with:
     script: <YOUR-ZEST-SCRIPT>
     flags: "-token 'id=secret' -token 'password=secret'"
