@@ -9,4 +9,4 @@ else
       args=" $2"
 fi
 out=$(/usr/bin/zest -script /input.zst$args)
-echo "::set-output name=output::$out"
+echo "output=$out" >> $GITHUB_ENV
