@@ -1,4 +1,5 @@
-FROM openjdk:11.0.15-jdk-slim
+FROM openjdk:19-jdk-slim
+ENV FORCE_UPDATE=20230701
 
 RUN apt-get update && apt-get install -q -y \
 	git \
