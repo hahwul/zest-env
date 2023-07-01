@@ -1,4 +1,4 @@
-FROM openjdk:11.0.15-jdk-slim
+FROM openjdk:19-jdk-slim
 ENV FORCE_UPDATE=20230701
 
 RUN apt-get update && apt-get install -q -y \
@@ -14,6 +14,7 @@ WORKDIR /build
 RUN git clone https://github.com/zaproxy/zest/
 
 WORKDIR /build/zest
+RUN ./gradlew assemble
 RUN ./gradlew build
 RUN unzip ./build/distributions/*.zip
 RUN cp -R zest-*/* /usr/
