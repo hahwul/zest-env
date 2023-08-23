@@ -7,10 +7,13 @@ on:
     branches: [ main ]
 
 jobs:
-
   build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        arch: [amd64, arm64]
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
     steps:
     - uses: actions/checkout@v3
