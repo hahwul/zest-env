@@ -15,12 +15,7 @@ env:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        arch: [amd64, arm64]
-
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
@@ -70,7 +65,7 @@ jobs:
         uses: docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a
         with:
           context: .
-          platforms: ${{ matrix.os }}
+          platforms: linux/amd64
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
