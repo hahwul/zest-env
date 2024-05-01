@@ -1,4 +1,4 @@
-#/bin/bash -l
+#/bin/sh -l
 
 ARCH=$(uname -m)
 if [ "$ARCH" = "x86_64" ]; then
