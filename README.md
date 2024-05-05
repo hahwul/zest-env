@@ -12,7 +12,7 @@ It is included by default with ZAP. However, it can also be used as the CLI. thi
 ### Github action
 ```yaml
 - name: Zest CLI
-  uses: hahwul/zest-env@v1.1.2
+  uses: hahwul/zest-env@v1.1.3
   with:
     script: <YOUR-ZEST-SCRIPT>
     flags: "-token 'id=secret' -token 'password=secret'"
@@ -36,13 +36,13 @@ It is included by default with ZAP. However, it can also be used as the CLI. thi
 ```
 docker pull hahwul/zest-env
 docker pull hahwul/zest-env:latest
-docker pull hahwul/zest-env:v1.1.2
+docker pull hahwul/zest-env:v1.1.3
 ```
 ![](https://user-images.githubusercontent.com/13212227/170864242-bebfa421-21cc-4f27-8077-230fdfe47202.png)
 
 #### In Dockerfile
 ```dockerfile
-FROM hahwul/zest-env:v1.1.2
+FROM hahwul/zest-env:v1.1.3
 # Add your Job
 RUN /usr/bin/zest -script <FILENAME>
 ```
@@ -50,13 +50,13 @@ RUN /usr/bin/zest -script <FILENAME>
 ### Github Container Registry (GHCR)
 #### In CLI
 ```
-docker pull ghcr.io/hahwul/zest-env:v1.1.2
+docker pull ghcr.io/hahwul/zest-env:v1.1.3
 ```
 ![](https://user-images.githubusercontent.com/13212227/170864338-f557b07c-9dc0-4500-84b4-13a86c5411da.png)
 
 #### In Dockerfile
 ```dockerfile
-FROM ghcr.io/hahwul/zest-env:v1.1.2
+FROM ghcr.io/hahwul/zest-env:v1.1.3
 # Add your Job
 RUN /usr/bin/zest -script <FILENAME>
 ```
