@@ -1,5 +1,5 @@
 FROM openjdk:20-jdk-slim
-ENV FORCE_UPDATE=20230824
+ENV FORCE_UPDATE=20250610
 
 RUN apt-get update && apt-get install -q -y \
 	git \
@@ -22,6 +22,7 @@ WORKDIR /build
 RUN git clone https://github.com/zaproxy/zest/
 
 WORKDIR /build/zest
+RUN git checkout 0.30.0
 RUN ./gradlew assemble
 RUN ./gradlew distZip
 RUN unzip ./build/distributions/*.zip
